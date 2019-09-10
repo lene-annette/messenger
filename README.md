@@ -17,7 +17,9 @@ This project has the following endpoints
 - PUT: /messageservice/messages, updates a message, consumes a message as XML and returns it if created successfully
 - DELETE: /messageservice/messages/:messageid, deletes the message with the given id if it exists 
 
-First time running the project creates a .dat file in which it stores data. 
+First time running the project creates a .dat file in which it stores data.
+
+It is recommended to try this project and its endpoints in a tool like Postman, since unfortunately there is no UI yet. 
 
 Note that this project does not yet have incremention of id (so if you try to create a message with id 1, and this already exists 
 an error will occur), or any sort of user-system or user check, so everyone can update and delete all messages. 
