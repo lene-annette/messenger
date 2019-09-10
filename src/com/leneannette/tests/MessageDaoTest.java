@@ -9,9 +9,9 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.leneannette.java.Data.DataHandler;
-import com.leneannette.java.Data.MessageDao;
-import com.leneannette.java.Entities.Message;
+import com.leneannette.Data.DataHandler;
+import com.leneannette.Data.MessageDao;
+import com.leneannette.Entities.Message;
 
 public class MessageDaoTest {
 	private DataHandler dh;
