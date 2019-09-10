@@ -1,8 +1,8 @@
-package com.leneannette.Data;
+package com.leneannette.java.Data;
 
 import java.util.List;
 
-import com.leneannette.Entities.Message;
+import com.leneannette.java.Entities.Message;
 
 public class MessageDao { 	
 	private DataHandler dh;

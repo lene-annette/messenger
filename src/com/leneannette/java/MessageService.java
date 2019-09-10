@@ -1,4 +1,4 @@
-package com.leneannette;
+package com.leneannette.java;
 
 import java.util.List;
 
@@ -12,8 +12,8 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.PathParam;
 
-import com.leneannette.Data.MessageDao;
-import com.leneannette.Entities.Message;
+import com.leneannette.java.Data.MessageDao;
+import com.leneannette.java.Entities.Message;
 
 @Path("/messageservice")
 

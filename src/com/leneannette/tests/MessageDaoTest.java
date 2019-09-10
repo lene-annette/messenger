@@ -1,4 +1,4 @@
-package com.leneannette.Data;
+package com.leneannette.tests;
 
 import static org.junit.Assert.*;
 
@@ -9,7 +9,9 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.leneannette.Entities.Message;
+import com.leneannette.java.Data.DataHandler;
+import com.leneannette.java.Data.MessageDao;
+import com.leneannette.java.Entities.Message;
 
 public class MessageDaoTest {
 	private DataHandler dh;

@@ -1,4 +1,4 @@
-package com.leneannette.Entities;
+package com.leneannette.java.Entities;
 
 import java.io.Serializable;
 import javax.xml.bind.annotation.XmlElement;

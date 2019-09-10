@@ -1,4 +1,4 @@
-package com.leneannette.Data;
+package com.leneannette.java.Data;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -10,7 +10,7 @@ import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.leneannette.Entities.Message;
+import com.leneannette.java.Entities.Message;
 
 public class DataHandler {
 	private File messageFile;
