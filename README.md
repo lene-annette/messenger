@@ -6,6 +6,8 @@ When creating this project an Apache Tomcat 7 server has been used.
 To run this project, run it locally on a server, e.g. by placing the war-file of the project inside the Tomcat-server's 
 webapps folder and start the server. 
 
+If you want to build this project, the easiest is to create a new .war-file, either by using your IDE (e.g. in Eclipse File > export> WAR-file) or using your command prompt to create it inside the project directory. 
+
 Then the webservice can be found on 
 http://localhost:8080/messenger/rest/messageservice/messages
 
